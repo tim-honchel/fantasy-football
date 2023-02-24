@@ -4,7 +4,7 @@ namespace FantasyFootballDraftGuide.Data.Repositories
 {
     public interface IRulesRepository
     {
-        Task SaveRules(Rules rules);
-        Task<bool> ValidateRules(Rules rules);
+        void SaveRules(Rules rules);
+        bool ValidateRules(Rules rules);
     }
 }

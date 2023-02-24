@@ -6,15 +6,14 @@ namespace FantasyFootballDraftGuide.Data.Repositories
     public class RulesRepository : IRulesRepository
     {
 
-        public async Task SaveRules(Rules rules)
+        public void SaveRules(Rules rules)
         {
             UserData.Rules = rules;
         }
-
-        public async Task<bool> ValidateRules(Rules rules)
+        public bool ValidateRules(Rules rules)
         {
             if (rules == null) { return false; }
-            if (rules.Budget == null || rules.Defenses == null || rules.Flexes == null || rules.Kickers == null || rules.PlayoffTeams == null || rules.Quarterbacks == null || rules.Reserves == null || rules.RunningBacks == null || rules.Teams == null || rules.TightEnds == null || rules.WideReceivers == null) { return false; }
+            //if (rules.Budget == null || rules.Defenses == null || rules.Flexes == null || rules.Kickers == null || rules.PlayoffTeams == null || rules.Quarterbacks == null || rules.Reserves == null || rules.RunningBacks == null || rules.Teams == null || rules.TightEnds == null || rules.WideReceivers == null) { return false; }
             
             if (rules.Teams < Constants.minTeams || rules.Teams > Constants.maxTeams) { return false; }
             if (rules.PlayoffTeams < Constants.minPlayoffTeams || rules.PlayoffTeams > Constants.maxPlayoffTeams || rules.PlayoffTeams > rules.Teams) { return false; }

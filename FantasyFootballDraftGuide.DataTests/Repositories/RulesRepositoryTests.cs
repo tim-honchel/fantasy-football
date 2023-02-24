@@ -5,9 +5,10 @@ using Shouldly;
 
 namespace FantasyFootballDraftGuide.DataTests.Repositories
 {
+    [TestFixture]
     internal class RulesRepositoryTests
     {
-        private RulesRepository _repository = new();
+        private readonly RulesRepository _repository = new();
 
         [SetUp]
         public void SetUp()
@@ -31,7 +32,7 @@ namespace FantasyFootballDraftGuide.DataTests.Repositories
         {
             Rules rulesToValidate = new() { PlayoffTeams = 4, Budget = 200, Quarterbacks = 1, RunningBacks = 2, WideReceivers = 3, TightEnds = 1, Flexes = 1, Kickers = 1, Defenses = 1, Reserves = 7 }; // missing Teams
 
-            var rulesValidated = await _repository.ValidateRules(rulesToValidate);
+            var rulesValidated = _repository.ValidateRules(rulesToValidate);
 
             rulesValidated.ShouldBeFalse();
         }
@@ -41,7 +42,7 @@ namespace FantasyFootballDraftGuide.DataTests.Repositories
         {
             Rules rulesToValidate = new() { Teams = 10, PlayoffTeams = 12, Budget = 200, Quarterbacks = 1, RunningBacks = 2, WideReceivers = 3, TightEnds = 1, Flexes = 1, Kickers = 1, Defenses = 1, Reserves = 7 }; // Playoff Teams > Teams
 
-            var rulesValidated = await _repository.ValidateRules(rulesToValidate);
+            var rulesValidated = _repository.ValidateRules(rulesToValidate);
 
             rulesValidated.ShouldBeFalse();
         }
@@ -51,7 +52,7 @@ namespace FantasyFootballDraftGuide.DataTests.Repositories
         {
             Rules rulesToValidate = new() { Teams = 10, PlayoffTeams = 4, Budget = 200, Quarterbacks = 1, RunningBacks = 2, WideReceivers = 3, TightEnds = 1, Flexes = 1, Kickers = 1, Defenses = 1, Reserves = 7 };
 
-            var rulesValidated = await _repository.ValidateRules(rulesToValidate);
+            var rulesValidated = _repository.ValidateRules(rulesToValidate);
 
             rulesValidated.ShouldBeTrue();
         }

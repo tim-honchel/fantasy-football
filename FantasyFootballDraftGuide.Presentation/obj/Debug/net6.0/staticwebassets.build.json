@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "rufSExz5BeK4Q7szsupSmF+17IpNLIrcyKzAC/W7YTs=",
+  "Hash": "A/jTofiIUlMrwACMhaKSVi9nLdRb8oj78aK7CvoksFc=",
   "Source": "FantasyFootballDraftGuide.Presentation",
   "BasePath": "_content/FantasyFootballDraftGuide.Presentation",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.API\\FantasyFootballDraftGuide.API.csproj",
+      "Version": 2,
+      "Source": "FantasyFootballDraftGuide.API",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "FantasyFootballDraftGuide.Presentation\\wwwroot",

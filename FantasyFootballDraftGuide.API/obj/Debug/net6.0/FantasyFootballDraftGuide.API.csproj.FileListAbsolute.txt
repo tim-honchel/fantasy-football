@@ -30,3 +30,16 @@ C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraft
 C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\obj\Debug\net6.0\FantasyFootballDraftGuide.API.pdb
 C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\obj\Debug\net6.0\FantasyFootballDraftGuide.API.genruntimeconfig.cache
 C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\obj\Debug\net6.0\ref\FantasyFootballDraftGuide.API.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\bin\Debug\net6.0\FantasyFootballDraftGuide.Data.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.API\bin\Debug\net6.0\FantasyFootballDraftGuide.Data.pdb

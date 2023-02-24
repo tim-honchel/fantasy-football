@@ -4,14 +4,82 @@
     "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.PresentationTests\\FantasyFootballDraftGuide.PresentationTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.PresentationTests\\FantasyFootballDraftGuide.PresentationTests.csproj": {
+    "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.API\\FantasyFootballDraftGuide.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.PresentationTests\\FantasyFootballDraftGuide.PresentationTests.csproj",
-        "projectName": "FantasyFootballDraftGuide.PresentationTests",
-        "projectPath": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.PresentationTests\\FantasyFootballDraftGuide.PresentationTests.csproj",
+        "projectUniqueName": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.API\\FantasyFootballDraftGuide.API.csproj",
+        "projectName": "FantasyFootballDraftGuide.API",
+        "projectPath": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.API\\FantasyFootballDraftGuide.API.csproj",
         "packagesPath": "C:\\Users\\thonchel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.PresentationTests\\obj\\",
+        "outputPath": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thonchel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.Data\\FantasyFootballDraftGuide.Data.csproj": {
+                "projectPath": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.Data\\FantasyFootballDraftGuide.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.Data\\FantasyFootballDraftGuide.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.Data\\FantasyFootballDraftGuide.Data.csproj",
+        "projectName": "FantasyFootballDraftGuide.Data",
+        "projectPath": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.Data\\FantasyFootballDraftGuide.Data.csproj",
+        "packagesPath": "C:\\Users\\thonchel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thonchel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +108,82 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.PresentationTests\\FantasyFootballDraftGuide.PresentationTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.PresentationTests\\FantasyFootballDraftGuide.PresentationTests.csproj",
+        "projectName": "FantasyFootballDraftGuide.PresentationTests",
+        "projectPath": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.PresentationTests\\FantasyFootballDraftGuide.PresentationTests.csproj",
+        "packagesPath": "C:\\Users\\thonchel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.PresentationTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thonchel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.Presentation\\FantasyFootballDraftGuide.Presentation.csproj": {
+                "projectPath": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.Presentation\\FantasyFootballDraftGuide.Presentation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.11.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
             },
             "NUnit": {
               "target": "Package",
@@ -51,6 +192,10 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[4.0.0, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             },
             "bunit": {
               "target": "Package",
@@ -75,6 +220,68 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.Presentation\\FantasyFootballDraftGuide.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.Presentation\\FantasyFootballDraftGuide.Presentation.csproj",
+        "projectName": "FantasyFootballDraftGuide.Presentation",
+        "projectPath": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.Presentation\\FantasyFootballDraftGuide.Presentation.csproj",
+        "packagesPath": "C:\\Users\\thonchel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thonchel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.API\\FantasyFootballDraftGuide.API.csproj": {
+                "projectPath": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.API\\FantasyFootballDraftGuide.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
