@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "V9/4QJ0PlJIXCLHHhrcaDMGfZnd+cdX1QMOR7pX77WLdsKpV0aE/RFUC6wWGsac+8IK26sE+iLjzgA0fO0PELg==",
+  "dgSpecHash": "fYalWGLGYdWA4upY9qdolfaHIC1PxSSsPP3COqfUhYPH+aoOFUWUr63wpwooXm0YHD8FLFrT/K5Ie/mBAbR6Tg==",
   "success": true,
   "projectFilePath": "C:\\Users\\thonchel\\Documents\\Repos\\FantasyFootballDraftGuide\\FantasyFootballDraftGuide.Data\\FantasyFootballDraftGuide.Data.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\thonchel\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
+    "C:\\Users\\thonchel\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\thonchel\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.3\\microsoft.entityframeworkcore.analyzers.7.0.3.nupkg.sha512",
+    "C:\\Users\\thonchel\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.3\\microsoft.entityframeworkcore.inmemory.7.0.3.nupkg.sha512",
+    "C:\\Users\\thonchel\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\thonchel\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\thonchel\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\thonchel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\thonchel\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\thonchel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\thonchel\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\thonchel\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\thonchel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

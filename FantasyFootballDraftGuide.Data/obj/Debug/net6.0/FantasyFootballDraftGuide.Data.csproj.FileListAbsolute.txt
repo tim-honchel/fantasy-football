@@ -1,0 +1,12 @@
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.Data\bin\Debug\net6.0\FantasyFootballDraftGuide.Data.deps.json
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.Data\bin\Debug\net6.0\FantasyFootballDraftGuide.Data.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.Data\bin\Debug\net6.0\FantasyFootballDraftGuide.Data.pdb
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.Data\obj\Debug\net6.0\FantasyFootballDraftGuide.Data.csproj.AssemblyReference.cache
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.Data\obj\Debug\net6.0\FantasyFootballDraftGuide.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.Data\obj\Debug\net6.0\FantasyFootballDraftGuide.Data.AssemblyInfoInputs.cache
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.Data\obj\Debug\net6.0\FantasyFootballDraftGuide.Data.AssemblyInfo.cs
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.Data\obj\Debug\net6.0\FantasyFootballDraftGuide.Data.csproj.CoreCompileInputs.cache
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.Data\obj\Debug\net6.0\FantasyFootballDraftGuide.Data.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.Data\obj\Debug\net6.0\refint\FantasyFootballDraftGuide.Data.dll
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.Data\obj\Debug\net6.0\FantasyFootballDraftGuide.Data.pdb
+C:\Users\thonchel\Documents\Repos\FantasyFootballDraftGuide\FantasyFootballDraftGuide.Data\obj\Debug\net6.0\ref\FantasyFootballDraftGuide.Data.dll
